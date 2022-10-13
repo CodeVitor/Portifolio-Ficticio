@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+/* ---------------header------------ */
+.container-header{
+    display: flex;
+    padding: 0 2%;
+    justify-content: space-between;
+    max-width: 1100px;
+    align-items: center;
+    margin:40px auto;
+}
+
+.nome h3{
+    font-weight: lighter;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    padding-left:20px;
+    color:lightgray;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration:underline;
+}
+.btn p {
+    background-color:#FEE74C;
+    color:black;
+    padding:15px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* -------------------header------------------- */
+
+/* ------------------main----------------- */
+
+.main-container{
+   max-width: 1100px;
+   padding: 0 2%;
+   margin:0 auto;
+}
+
+/* ----------------texts-------------- */
+.texts{
+    max-width: 800px;
+    margin-top: 100px;
+}
+
+.text-h1{
+    font-size: 40px;
+}
+
+.text-p{
+    font-size: 23px;
+    padding-top: 10px;
+    color: lightgray;
+}
+
+/* -------------texts------------ */
+
+/* --------------logos------------- */
+.icons{
+    display: flex;
+    margin-top: 80px;
+    justify-content:space-between;
+}
+
+/* ----------------logos----------- */
+
+/* ---------------artigos-------------- */
+
+.artigos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    justify-content: space-between;
+}
+
+.artigo1{
+    width: 48%;  
+}
+
+.artigo2{
+    width:48%;
+}
+
+.artigo1 img{
+    width: 100%;
+}
+
+.artigo2 img{
+    width: 100%;   
+}
+
+.artigo1 h2{
+    font-size: 40px;
+    margin:10px 0;
+}
+
+.artigo2 h2{
+    font-size: 40px;
+    margin:10px 0;
+}
+
+/* ------------artigos---------------- */
+
+/* ---------------awards---------------- */
+
+.awards-bg{
+    background-color: #2F2F37;
+    max-width: 100%;
+    padding: 50px 50px;
+}
+
+.awards{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-wrap:wrap ; */
+}
+
+.h2-p h2{
+    font-size:40px;
+    margin:15px;
+}
+
+.h2-p p{
+    font-size:20px;
+    margin:15px;
+}
+
+.p- p{
+    font-size:20px;
+    margin:25px;
+}
+
+/* --------------awards------------- */
+
+/* --------------about----------------- */
+
+.about{
+    max-width: 1100px;
+    margin-left:50px;
+    margin-right: 50px;
+    
+}
+
+.title-h2{
+    font-size: 30px;
+}
+
+.desc-p{
+    font-size: 20px;
+}
+
+.btn-2 p{
+    background-color:#FEE74C;
+    color:black;
+    padding:15px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* ------------------about---------------- */
+
+/* ----------------footer----------------- */
+
+footer{
+    background-color: #2F2F37;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-h3 h3{
+    padding:20px;
+    margin-left:50px;
+    
+}
+
+.social-icons img{
+    padding:20px ;
+    margin-right:50px;
+}
+
+@media screen and (max-width:768px){
+    
+    .container-header{
+        margin:0 auto;
+        display: block;
+        text-align: center;
+    }
+    
+    
+    .menu ul{
+        display:block;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .menu li{
+        list-style: none;
+        padding: 10px;
+        color:lightgray;
+        
+    }
+
+    .btn p {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    /* ---------------------------- */
+
+    .texts{
+        max-width: 600px;
+        margin: 60px auto;
+    }
+    
+    .text-h1{
+        font-size:35px;
+        text-align:center;
+    }
+    
+    .text-p{
+        text-align: center;
+    }
+
+    /* ----------------------------------- */
+
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        max-width:320px;
+        margin: 0 auto;
+        
+        
+    }
+
+    .icons img{
+        padding:10px;
+        /* width: 200px; */
+    }
+    /* ---------------------------------- */
+
+    .artigos{
+        display: block;
+        max-width: 1100px;
+        
+    }
+
+    .artigo1{
+        width: 80%;  
+        margin:0 auto;
+    }
+    
+    .artigo2{
+        width:80%;
+        margin:20px auto;
+    }
+    /* ----------------------------------------- */
+
+    .awards{
+        max-width: 1100px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* ------------------------------------------------- */
+
+    footer{
+        display: block;
+        text-align: center;
+    }
+
+    .social-icons img{
+        padding:0px ;
+        /* display: block; */
+        margin: 0 auto;
+        
+        
+    }
+
+}
